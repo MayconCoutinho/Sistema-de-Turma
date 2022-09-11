@@ -15,7 +15,6 @@ encontradas nessa API são: criar estudante, criar docente,
 criar turma, adicionar estudante na turma e adicionar docente
 na turma e também é possível mudar o aluno e professore de turma.
 
-
 ﾠ
 ## As funcionalidades básicas são:
 - → Criar turma
@@ -37,47 +36,10 @@ Toda turma é composta pelas seguintes características:
 - estudantes: lista de ids ou nomes de estudantes dessa turmaexistir na tabela de estudantes iniciar vaziamodulo: 
 - módulo atual da turma pode assumir um valor entre 1 a 6 nas turmas ativas, ou 0, indicando que as aulas dessa turma ainda não começaraminiciar como 0
 
-GET Pegar Turmas
-localhost:3003/turmas
-
-Example Request
-Pegar Turmas
-curl --location --request GET 'localhost:3003/turmas'
-POSTAdd Turma
-localhost:3003/turmas
-BODYraw
-{
-"nome":"Freire"
-}
-
-
-Example Request
-Add Turma
-curl --location --request POST 'localhost:3003/turmas' \
---data-raw '{
-"nome":"Freire"
-}'
-PUTMudarTurma
-localhost:3003/turmas/turma
-BODYraw
-{
-"id":"1662651616681",
-"modulo":"6"
-}
-
-
-Example Request
-MudarTurma
-curl --location --request PUT 'localhost:3003/turmas/turma' \
---data-raw '{
-"id":"1662651616681",
-"modulo":"6"
-}'
-
 ## Estudante
 Representa estudantes da nossa instituição. Possuir uma, e somente uma turma. Estudantes com cadastro novo começam sem alocação em nenhuma turma.
 
-### Possuir:
+* Possuir:
 
 - id: identificador único gerado pela própria aplicação
 - nome: nome da pessoa
@@ -88,7 +50,7 @@ Representa estudantes da nossa instituição. Possuir uma, e somente uma turma. 
 ## Docente
 Representa docentes da nossa instituição. Cada docente deve possuir uma, e somente uma turma por vez. Docentes com cadastro novo começam sem alocação em nenhuma turma.
 
-Deve possuir:
+* Possuir:
 
 - id: identificador único gerado pela própria aplicação
 - nome: nome da pessoa
