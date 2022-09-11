@@ -14,14 +14,16 @@ estudantes, corpo docente e turmas. As funcionalidades básicas
 encontradas nessa API são: criar estudante, criar docente,
 criar turma, adicionar estudante na turma e adicionar docente
 na turma e também é possível mudar o aluno e professore de turma.
+
+
 ﾠ
-As funcionalidades básicas são:
-→ Criar turma
-→ Buscar turmas ativas
-→ Mudar turma de módulo
-→ Criar estudante
-→ Buscar estudantes através do nome
-→ Mudar estudante de turma
-→ Criar docente
-→ Buscar todas as pessoas docentes
-→ Mudar docente de turma
+## As funcionalidades básicas são:
+- → Criar turma
+- → Buscar turmas ativas
+- → Mudar turma de módulo
+- → Criar estudante
+- → Buscar estudantes através do nome
+- → Mudar estudante de turma
+- → Criar docente
+- → Buscar todas as pessoas docentes
+- → Mudar docente de turma
