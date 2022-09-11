@@ -14,7 +14,6 @@ estudantes, corpo docente e turmas. As funcionalidades básicas
 encontradas nessa API são: criar estudante, criar docente,
 criar turma, adicionar estudante na turma e adicionar docente
 na turma e também é possível mudar o aluno e professore de turma.
-
 ﾠ
 ## As funcionalidades básicas são:
 - → Criar turma
@@ -57,3 +56,12 @@ Representa docentes da nossa instituição. Cada docente deve possuir uma, e som
 - email: email da pessoa
 - data_nasc: data de nascimento no formato DD/MM/AAAA exemplo: "21/03/1999"
 - turma_id: id ou nome da turma que essa pessoa é responsável existir na tabela de turmas
+
+## Tecnologias/Tools
+- Nodejs
+- Express/Cors
+- MySQL - banco relacional
+- Typescript
+- Heroku;
+- Postman
+- NPM
