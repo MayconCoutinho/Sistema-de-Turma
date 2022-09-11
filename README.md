@@ -28,69 +28,17 @@ na turma e também é possível mudar o aluno e professore de turma.
 - → Buscar todas as pessoas docentes
 - → Mudar docente de turma
 
-
-Sobre
-ﾠ
-Turma
-Estudante
-Docente
-📚 Labenu System 9
-
-ﾠ
-Sobre
-Essa API foi desenvolvida para representar a dinâmica básica de
-qualquer escola . Aqui será encontrado três entidades
-fundamentais para o bom funcionamento de uma escola:
-estudantes, corpo docente e turmas. As funcionalidades básicas
-encontradas nessa API são: criar estudante, criar docente,
-criar turma, adicionar estudante na turma e adicionar docente
-na turma e também é possível mudar o aluno e professore de turma.
-
-ﾠ
-AS FUNCIONALIDADES BÁSICAS SÃO:
-→ Criar turma
-
-→ Buscar turmas ativas
-
-→ Mudar turma de módulo
-
-→ Criar estudante
-
-→ Buscar estudantes através do nome
-
-→ Mudar estudante de turma
-
-→ Criar docente
-
-→ Buscar todas as pessoas docentes
-
-→ Mudar docente de turma
-
-Turma
+## Turma
 Toda turma é composta pelas seguintes características:
 
-id: identificador único gerado pela própria aplicação
+- id: identificador único gerado pela própria aplicação
+- nome: nome da turma
+- docentes: lista de ids ou nomes de docentes dessa turmaexistir na tabela de docentesiniciar vazia
+- estudantes: lista de ids ou nomes de estudantes dessa turmaexistir na tabela de estudantes iniciar vaziamodulo: 
+- módulo atual da turma pode assumir um valor entre 1 a 6 nas turmas ativas, ou 0, indicando que as aulas dessa turma ainda não começaraminiciar como 0
 
-nome: nome da turma
-
-docentes: lista de ids ou nomes de docentes dessa turma
-
-* existir na tabela de docentes
-* iniciar vazia
-
-estudantes: lista de ids ou nomes de estudantes dessa turma
-
-* existir na tabela de estudantes
-* iniciar vazia
-
-modulo: módulo atual da turma
-
-* pode assumir um valor entre 1 a 6 nas turmas ativas, ou 0, indicando que as aulas dessa turma ainda não começaram
-* iniciar como 0
-
-GETPegar Turmas
+GET Pegar Turmas
 localhost:3003/turmas
-
 
 Example Request
 Pegar Turmas
