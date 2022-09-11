@@ -84,3 +84,14 @@ Representa estudantes da nossa instituição. Possuir uma, e somente uma turma. 
 - email: email da pessoa
 - data_nasc: data de nascimento no formato DD/MM/AAAA (exemplo: 21/03/1999)
 - turma_id: id ou nome da turma da pessoa existir na tabela de turmas
+
+## Docente
+Representa docentes da nossa instituição. Cada docente deve possuir uma, e somente uma turma por vez. Docentes com cadastro novo começam sem alocação em nenhuma turma.
+
+Deve possuir:
+
+- id: identificador único gerado pela própria aplicação
+- nome: nome da pessoa
+- email: email da pessoa
+- data_nasc: data de nascimento no formato DD/MM/AAAA exemplo: "21/03/1999"
+- turma_id: id ou nome da turma que essa pessoa é responsável existir na tabela de turmas
