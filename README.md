@@ -6,7 +6,7 @@
 
 # [API LINK ](https://documenter.getpostman.com/view/22767800/VVJ3zb4P#78e8bc21-eb8f-4969-8b43-3b10bd75988d)
 
-Sobre
+## ✨ Sobre
 Essa API foi desenvolvida para representar a dinâmica básica de
 qualquer escola . Aqui será encontrado três entidades
 fundamentais para o bom funcionamento de uma escola:
@@ -15,7 +15,7 @@ encontradas nessa API são: criar estudante, criar docente,
 criar turma, adicionar estudante na turma e adicionar docente
 na turma e também é possível mudar o aluno e professore de turma.
 ﾠ
-## As funcionalidades básicas são:
+## 🚩 As funcionalidades básicas são:
 - → Criar turma
 - → Buscar turmas ativas
 - → Mudar turma de módulo
@@ -26,7 +26,7 @@ na turma e também é possível mudar o aluno e professore de turma.
 - → Buscar todas as pessoas docentes
 - → Mudar docente de turma
 
-## Turma
+## 🎒 Turma
 Toda turma é composta pelas seguintes características:
 
 - id: identificador único gerado pela própria aplicação
@@ -35,7 +35,7 @@ Toda turma é composta pelas seguintes características:
 - estudantes: lista de ids ou nomes de estudantes dessa turmaexistir na tabela de estudantes iniciar vaziamodulo: 
 - módulo atual da turma pode assumir um valor entre 1 a 6 nas turmas ativas, ou 0, indicando que as aulas dessa turma ainda não começaraminiciar como 0
 
-## Estudante
+## 👨‍🎓 Estudante
 Representa estudantes da nossa instituição. Possuir uma, e somente uma turma. Estudantes com cadastro novo começam sem alocação em nenhuma turma.
 
 * Possuir:
@@ -46,7 +46,7 @@ Representa estudantes da nossa instituição. Possuir uma, e somente uma turma. 
 - data_nasc: data de nascimento no formato DD/MM/AAAA (exemplo: 21/03/1999)
 - turma_id: id ou nome da turma da pessoa existir na tabela de turmas
 
-## Docente
+## 👨‍🏫 Docente
 Representa docentes da nossa instituição. Cada docente deve possuir uma, e somente uma turma por vez. Docentes com cadastro novo começam sem alocação em nenhuma turma.
 
 * Possuir:
@@ -57,7 +57,7 @@ Representa docentes da nossa instituição. Cada docente deve possuir uma, e som
 - data_nasc: data de nascimento no formato DD/MM/AAAA exemplo: "21/03/1999"
 - turma_id: id ou nome da turma que essa pessoa é responsável existir na tabela de turmas
 
-## Tecnologias/Tools
+## 🚀 Tecnologias/Tools
 - Nodejs
 - Express/Cors
 - MySQL - banco relacional
@@ -66,7 +66,7 @@ Representa docentes da nossa instituição. Cada docente deve possuir uma, e som
 - Postman
 - NPM
 
-# Desenvolvedores 
+## 💻 Desenvolvedores 
 
 
 <div align="center">  
