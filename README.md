@@ -200,8 +200,8 @@ npm i
 ```
 <br /> 
 
-> OBR - Muito importante, caso não tenha um banco de dados MySQL disponivel, não vai da para rodar o projeto, pois o projeto conecta diretamente com o banco de dados
-> sendo assim crie um arquivo .env para por os dados do MySQL.
+> OBS - Muito importante, caso não tenha um banco de dados MySQL disponivel, não vai da para rodar o projeto, pois o projeto conecta diretamente com o banco de dados
+> sendo assim crie um arquivo ".env" para por os dados do MySQL.
 
 
 ```BASH
